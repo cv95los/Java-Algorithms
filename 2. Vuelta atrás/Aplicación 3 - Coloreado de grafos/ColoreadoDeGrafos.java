@@ -17,7 +17,7 @@ public class ColoreadoDeGrafos{
                     break;
                 }
             }  
-            if (j==nNodos+1)return colores[k];
+            if (j==nNodos+1)return colores[k]; // ¿Por qué está fuera del ciclo? //El algoritmo no funciona
         }while(true);
     }
     
